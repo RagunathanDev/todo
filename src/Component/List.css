@@ -1,0 +1,40 @@
+.Container {
+  display: flex;
+  margin: 5px;
+
+  border-radius: 10px;
+  justify-content: space-between;
+}
+.task_Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.Icon__Container {
+  display: flex;
+  justify-content: flex-end;
+}
+.card_TopContainer {
+  width: 100vh;
+  margin: 10px;
+}
+.card_Container {
+  margin: 10px;
+  flex-direction: column;
+}
+.__card {
+  display: flex;
+  flex-direction: row;
+}
+.card_Heading {
+  padding: 10px;
+}
+.task {
+  text-transform: capitalize;
+  flex-grow: 1;
+}
+.task_Div {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
